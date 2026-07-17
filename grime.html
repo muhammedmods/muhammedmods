@@ -13,28 +13,15 @@
             padding: 20px;
         }
         .container {
-            max-width: 700px;
+            max-width: 850px;
             margin: 0 auto;
             background-color: #1e1e1e;
             border: 1px solid #333;
             border-radius: 8px;
-            padding: 30px;
+            padding: 35px;
             text-align: right;
-            margin-top: 40px;
-        }
-        .btn-next {
-            background-color: #ff4757;
-            color: white;
-            padding: 12px 25px;
-            text-decoration: none;
-            border-radius: 5px;
-            display: inline-block;
-            font-weight: bold;
-            font-size: 18px;
             margin-top: 20px;
-        }
-        .btn-next:hover {
-            background-color: #ff6b81;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.5);
         }
         .btn-back {
             background-color: #57606f;
@@ -45,38 +32,99 @@
             display: inline-block;
             margin-bottom: 20px;
         }
+        .btn-back:hover {
+            background-color: #4b525e;
+        }
+        .link-section {
+            background-color: #252525;
+            padding: 15px;
+            border-right: 4px solid #ff4757;
+            border-radius: 4px;
+            margin: 15px 0;
+        }
+        .link-section a {
+            color: #ff4757;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .link-section a:hover {
+            text-decoration: underline;
+        }
+        .btn-mediafire {
+            background-color: #0070f3;
+            color: white;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 30px;
+            box-shadow: 0 4px 15px rgba(0,112,243,0.3);
+            transition: background 0.2s;
+        }
+        .btn-mediafire:hover {
+            background-color: #0051b3;
+        }
         hr {
             border: 0;
             border-top: 1px solid #333;
-            margin: 20px 0;
+            margin: 25px 0;
+        }
+        ul {
+            padding-right: 20px;
+        }
+        li {
+            margin-bottom: 8px;
         }
     </style>
 </head>
 <body>
 
-    <div style="max-width: 700px; margin: 0 auto; text-align: right;">
+    <div style="max-width: 850px; margin: 0 auto; text-align: right;">
         <a href="index.html" class="btn-back">← العودة للرئيسية</a>
     </div>
 
     <div class="container">
-        <h1>صفحة تعريب لعبة: GRIME</h1>
-        <p style="color: #a4b0be;">تصنيف اللعبة: أكشن / أر بي جي</p>
+        <h1>صفحة تعريب لعبة: GRIME كاملة</h1>
+        <p style="color: #a4b0be;">مرحباً بك في الصفحة الرسمية لتعديل وتعريب لعبة GRIME الحصرية.</p>
         
         <hr>
 
-        <h3>تفاصيل التعريب الحصري:</h3>
-        <p>هنا يمكنك كتابة كل الكلام والوصف الذي تريده عن تعريب اللعبة ومميزاته بالتفصيل...</p>
+        <!-- قسم الكلام والوصف والتفاصيل -->
+        <h3>تفاصيل التعريب والمود:</h3>
+        <p>هنا يمكنك كتابة كل الكلام والشرح الذي تريده عن تعريب اللعبة ومميزاته بالتفصيل وبراحتك تماماً...</p>
         <ul>
-            <li>تعريب القوائم بالكامل.</li>
-            <li>ترجمة الحوارات والقصة.</li>
+            <li>تعريب القوائم الرئيسية وإعدادات اللعبة بالكامل.</li>
+            <li>ترجمة حوارات القصة والترجمة المصاحبة (Subtitles).</li>
+            <li>ترجمة أسماء الأدوات، الأسلحة، وقوائم التطوير داخل اللعبة.</li>
         </ul>
 
-        <h3>طريقة التركيب:</h3>
-        <p>اكتب هنا خطوات التركيب بالتفصيل للاعبين.</p>
+        <h3>طريقة تركيب التعريب:</h3>
+        <p>اكتب هنا خطوات التركيب بالتفصيل للاعبين لكي يعرفوا أين يضعون الملفات بعد تحميلها.</p>
 
+        <hr>
+
+        <!-- قسم اللينكات الإضافية (يمكنك تكراره أو تعديله لأي لينكات تريدها) -->
+        <h3>روابط ومصادر تهمك:</h3>
+        
+        <div class="link-section">
+            🔗 شاهد استعراض للتعريب على يوتيوب: <a href="ضع_رابط_فيديو_اليوتيوب_هنا" target="_blank">اضغط هنا للمشاهدة</a>
+        </div>
+
+        <div class="link-section">
+            💬 تابعني على حساباتي الرسمية أو تواصل معي: <a href="ضع_رابط_صفحتك_هنا" target="_blank">اضغط هنا للانضمام</a>
+        </div>
+
+        <hr>
+
+        <!-- زر التحميل النهائي الذي يفتح ميديا فاير مباشرة -->
         <center>
-            <!-- هذا الزر يفتح صفحة التحميل واللينكات التالية -->
-            <a href="download-grime.html" class="btn-next">الانتقال لصفحة روابط التحميل ←</a>
+            <h3>جاهز للتحميل؟</h3>
+            <p style="color: #a4b0be; font-size: 14px;">اضغط على الزر بالأسفل للانتقال مباشرة إلى MediaFire وتحميل ملف التعريب.</p>
+            
+            <!-- ضع رابط ميديا فاير الحقيقي الخاص بك بدلاً من علامة # هنا -->
+            <a href="#" target="_blank" class="btn-mediafire">🚀 تحميل التعريب المباشر (MediaFire)</a>
         </center>
     </div>
 
